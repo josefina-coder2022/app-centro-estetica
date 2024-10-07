@@ -1,0 +1,872 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Mukta:wght@600&family=Poppins:wght@300&family=Raleway:wght@300&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+body {
+   width: 100%;
+   background: rgb(245, 249, 249);
+   background: linear-gradient(0deg, rgba(245, 249, 249, 1) 37%, rgba(250, 33, 209, 1) 100%);
+   background-repeat: no-repeat;
+   font-family: 'Poppins',
+      sans-serif;
+   margin-left: auto;
+   margin-right: auto;
+   height: 100%;
+   margin: 0;
+   background-attachment: fixed;
+
+}
+
+header {
+   width: 80%;
+   height: 80%;
+   font-size: medium;
+}
+
+.containerHeader {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 45px;
+}
+
+#logoHeder {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+}
+
+img {
+   width: 80%;
+   height: auto;
+}
+
+
+
+nav ul {
+   display: flex;
+   flex-direction: column;
+   margin-top: 15px;
+}
+
+nav ul li {
+   list-style-type: none;
+   padding: 5px;
+   width: 120px;
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+a:hover {
+   color: ghostwhite;
+   font-size: large;
+   font-weight: bolder;
+   box-shadow: 2px 4px 4px ghostwhite;
+   transform: scale (5);
+   transition-property: all;
+   transition-duration: 3s;
+}
+
+
+main {
+
+   width: 100%;
+}
+
+
+
+.hero {
+   width: 70%;
+   height: 50vh;
+   margin-top: 45px;
+   margin-left: auto;
+   margin-right: auto;
+   color: rgb(253, 4, 220);
+   border: 5px solid white;
+   box-shadow: 2px 4px 4px rgb(83, 83, 83);
+   background-image: url(../imagenes/imgRostro.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   font-size: 18px;
+   font-weight: bolder;
+}
+
+.parrMain {
+   margin-top: 70px;
+   padding-left: 15px;
+   text-align: left;
+}
+
+span {
+   font-size: 18px;
+}
+
+h1 {
+   color: rgb(253, 4, 220);
+   font-size: 15px;
+   font-weight: bolder;
+   background-color: rgb(248, 217, 222);
+   padding: 5px;
+   text-align: center;
+}
+
+h2 {
+   color: rgb(253, 4, 220);
+   background-color: rgb(248, 217, 222);
+   font-size: 15px;
+   font-weight: bolder;
+   padding: 5px;
+   text-align: center;
+
+}
+
+
+h3 {
+   color: white;
+   font-size: 15px;
+   font-weight: bolder;
+   background-color: rgb(158, 151, 151);
+   border: 1px solid white;
+   border-radius: 10px;
+   text-align: center;
+}
+
+hr {
+   color: rgb(253, 4, 220);
+}
+
+
+.container {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+
+#productos {
+   border: 1px solid white;
+   margin-top: 25px;
+   width: 60%;
+
+}
+
+
+.parrProductos {
+   color: rgb(253, 4, 220);
+   background-color: rgb(248, 217, 222);
+   font-size: small;
+   font-weight: 300px;
+   padding: 5px;
+   
+}
+
+.iconProductos {
+   color: rgb(253, 4, 220);
+   width: 50%;
+   font-size: x-large;
+   padding: 5px;
+
+}
+
+#publicidad {
+   margin-top: 25px;
+   width: 39%;
+
+}
+
+.parrPubli2 {
+   border: 1px solid white;
+   color: rgb(77, 74, 74);
+   background-color: rgb(216, 214, 214);
+   font-size: small;
+   font-weight: bolder;
+   border-radius: 10px;
+   margin-top: 10px;
+   padding: 5px;
+
+}
+
+.news {
+   background-color: rgb(248, 217, 222);
+   
+}
+
+.contenedorNews {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.imgNovedades {
+   width: 100%;
+   background-size: cover;
+   height: 120px;
+}
+
+.textNovedad {
+   width: 80%;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.flechaNovedad {
+   bottom: 20px;
+   right: 10px;
+}
+
+
+footer {
+   width: 50%;
+   height: 60vh;
+   border-radius: 10px;
+   margin-top: 30px;
+   background-color: rgb(247, 95, 226);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 5px;
+
+}
+
+.parrFooter {
+   color: white;
+   text-shadow: 1px 2px 2px black;
+   font-size: small;
+   text-align: center;
+
+}
+
+.logoFooter {
+   width: 50%;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+
+.iconFooter {
+   font-size: x-large;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   justify-content: center;
+   align-items: center;
+
+}
+
+/*areas*/
+
+header {
+   grid-area: header;
+
+}
+
+article.hero {
+   grid-area: hero;
+}
+
+.container {
+   grid-area: container;
+}
+
+
+footer {
+   grid-area: footer;
+}
+
+
+#grilla {
+   width: 100%;
+   height: 100vh;
+   display: grid;
+   grid-template-areas: "header"
+      "hero"
+      "container"
+      "footer";
+
+   grid-template-columns: 1fr;
+   grid-template-rows: 40% 2fr 1fr auto;
+
+}
+
+
+/*MOBILE TABLET*/
+
+@media(min-width: 768px) {
+
+
+   #grilla {
+      width: 100%;
+      height: 100vh;
+      display: grid;
+      grid-template-areas: "header"
+         "hero"
+         "container"
+         "footer";
+
+      grid-template-columns: 1fr;
+      grid-template-rows: 40% 2fr 1fr auto;
+
+   }
+
+
+   header {
+      width: 80%;
+      height: 60%;
+      font-size: medium;
+
+   }
+
+   .containerHeader {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 45px;
+
+
+
+   }
+
+   #logoHeder {
+      width: 80%;
+      justify-content: center;
+      align-content: center;
+
+   }
+
+   img {
+      width: 80%;
+      height: auto;
+
+   }
+
+
+
+   nav ul {
+      display: flex;
+      flex-direction: row;
+      margin-top: 40px;
+
+
+   }
+
+   nav ul li {
+      list-style-type: none;
+      padding: 5px;
+      border-right: 1px solid white;
+      width: 120px;
+      text-align: center;
+   }
+
+   a {
+      text-decoration: none;
+      color: white;
+   }
+
+   a:hover {
+      color: ghostwhite;
+      font-size: large;
+      font-weight: bolder;
+      box-shadow: 2px 4px 4px ghostwhite;
+      transform: scale (5);
+      transition-property: all;
+      transition-duration: 3s;
+   }
+
+
+   main {
+
+      width: 100%;
+   }
+
+
+
+   .hero {
+      width: 80%;
+      height: 60vh;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      color: rgb(253, 4, 220);
+      border: 5px solid white;
+      box-shadow: 2px 4px 4px rgb(83, 83, 83);
+      background-image: url(../imagenes/imgRostro.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      font-size: 23px;
+      font-weight: bolder;
+
+
+   }
+
+   .parrMain {
+      margin-top: 70px;
+      padding-left: 15px;
+      text-align: left;
+
+   }
+
+   span {
+      font-size: 18px;
+   }
+
+   h1 {
+      color: rgb(253, 4, 220);
+      font-size: 15px;
+      font-weight: bolder;
+      background-color: rgb(248, 217, 222);
+      padding: 5px;
+   }
+
+   h2 {
+      color: rgb(253, 4, 220);
+      background-color: rgb(248, 217, 222);
+      font-size: 15px;
+      font-weight: bolder;
+      padding: 5px;
+
+   }
+
+
+   h3 {
+      color: white;
+      font-size: 15px;
+      font-weight: bolder;
+      background-color: rgb(158, 151, 151);
+      border: 1px solid white;
+      border-radius: 10px;
+      text-align: center;
+   }
+
+
+
+   .container {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+
+   #productos {
+      border: 1px solid white;
+      margin-top: 25px;
+      width: 60%;
+
+   }
+
+
+   .parrProductos {
+      color: rgb(253, 4, 220);
+      background-color: rgb(248, 217, 222);
+      font-size: small;
+      font-weight: 300px;
+      padding: 5px;
+
+   }
+
+   .iconProductos {
+      color: rgb(253, 4, 220);
+      width: 50%;
+      font-size: x-large;
+      padding: 5px;
+
+   }
+
+   #publicidad {
+      margin-top: 25px;
+      width: 39%;
+
+   }
+
+   .parrPubli2 {
+      border: 1px solid white;
+      color: rgb(77, 74, 74);
+      background-color: rgb(216, 214, 214);
+      font-size: small;
+      font-weight: bolder;
+      border-radius: 10px;
+      margin-top: 10px;
+      padding: 5px;
+
+   }
+
+   footer {
+      width: 50%;
+      height: 60vh;
+      border-radius: 10px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-left: auto;
+      margin-right: auto;
+      
+
+   }
+
+   .parrFooter {
+      color: white;
+      text-shadow: 1px 2px 2px black;
+      font-size: small;
+      text-align: center;
+
+   }
+
+   .logoFooter {
+      width: 45%;
+      text-align: center;
+
+
+
+   }
+
+
+   .iconFooter {
+      font-size: x-large;
+      display: flex;
+      flex-direction: row;
+      gap: 35px;
+      justify-content: center;
+      align-items: center;
+
+   }
+
+
+
+
+
+}
+
+
+
+/*DESKTOP*/
+
+@media(min-width: 1024px) {
+
+
+
+   body {
+      width: 100%;
+      background: rgb(245, 249, 249);
+      background: linear-gradient(0deg, rgba(245, 249, 249, 1) 37%, rgba(250, 33, 209, 1) 100%);
+      background-repeat: no-repeat;
+      font-family: 'Poppins',
+         sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
+      margin: 0;
+      background-attachment: fixed;
+
+   }
+
+   header {
+      width: 80%;
+      font-size: large;
+
+   }
+
+   .containerHeader {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 60px;
+
+
+
+   }
+
+   #logoHeder {
+      width: 40%;
+      display: flex;
+      align-items: center;
+   }
+
+   img {
+      width: 100%;
+      height: auto;
+   }
+
+
+
+   nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 50px;
+
+   }
+
+   nav ul li {
+      list-style-type: none;
+      border-right: 1px solid white;
+      padding: 5px;
+      width: 120px;
+      text-align: center;
+   }
+
+   a {
+      text-decoration: none;
+      color: white;
+   }
+
+   a:hover {
+      color: ghostwhite;
+      font-size: x-large;
+      font-weight: bolder;
+      box-shadow: 2px 4px 4px ghostwhite;
+      transform: scale (5);
+      transition-property: all;
+      transition-duration: 3s;
+   }
+
+
+   main {
+
+      width: 100%;
+   }
+
+
+
+   .hero {
+      width: 60%;
+      height: 70vh;
+      margin-top: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      color: rgb(253, 4, 220);
+      border: 5px solid white;
+      box-shadow: 2px 4px 4px rgb(83, 83, 83);
+      background-image: url(../imagenes/imgRostro.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      font-size: x-large;
+      font-weight: bold;
+
+
+   }
+
+   .parrMain {
+      margin-top: 70px;
+      padding-left: 15px;
+      text-align: left;
+
+   }
+
+   .interlineado{
+      line-height: 34%;
+   }
+
+   span {
+      font-size: 18px;
+   }
+
+   h1 {
+      color: rgb(253, 4, 220);
+      font-size: medium;
+      font-weight: 300px;
+      background-color: rgb(248, 217, 222);
+      padding: 5px;
+   }
+
+   h2 {
+      color: rgb(253, 4, 220);
+      background-color: rgb(248, 217, 222);
+      font-size: medium;
+      font-weight: bold;
+      padding: 5px;
+
+   }
+
+
+   h3 {
+      color: white;
+      font-size: medium;
+      font-weight: bold;
+      background-color: rgb(158, 151, 151);
+      border: 1px solid white;
+      border-radius: 10px;
+      text-align: center;
+   }
+
+
+   .container {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+
+   #productos {
+      border: 1px solid white;
+      margin-top: 25px;
+      width: 60%;
+
+   }
+
+
+   .parrProductos {
+      color: rgb(253, 4, 220);
+      background-color: rgb(248, 217, 222);
+      font-size: small;
+      font-weight: 300px;
+      padding: 5px;
+
+   }
+
+   .iconProductos {
+      color: rgb(253, 4, 220);
+      width: 50%;
+      font-size: x-large;
+      padding: 5px;
+
+   }
+
+   #publicidad {
+      margin-top: 25px;
+      width: 39%;
+
+   }
+
+   .parrPubli2 {
+      border: 1px solid white;
+      color: rgb(77, 74, 74);
+      background-color: rgb(216, 214, 214);
+      font-size: small;
+      font-weight: bolder;
+      border-radius: 10px;
+      margin-top: 10px;
+      padding: 5px;
+
+   }
+
+   .news {
+      background-color: rgb(248, 217, 222);
+   }
+
+   .contenedorNews {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+   }
+
+   .imgNovedades {
+      width: 35%;
+      background-size: cover;
+      height: auto;
+   }
+
+   .textNovedad {
+      width: 65%;
+      position: relative;
+   }
+
+   .flechaNovedad{
+      position: absolute;
+      bottom: 2px;
+      right: 0px;
+      
+   }
+
+
+   footer {
+      width: 80%;
+      height: 20vh;
+      border-radius: 10px;
+      margin-top: 30px;
+      background-color: rgb(247, 59, 222);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+   }
+
+   .parrFooter {
+      color: white;
+      text-shadow: 1px 2px 2px black;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      justify-items: center;
+
+
+   }
+
+   .logoFooter {
+      width: 130px;
+      display: flex;
+      align-items: center;
+      justify-items: center;
+
+   }
+
+
+   .iconFooter {
+      font-size: x-large;
+      display: flex;
+      gap: 25px;
+      justify-items: center;
+      align-items: center;
+
+
+   }
+
+
+
+
+   #grilla {
+      width: 100%;
+      height: 100vh;
+      display: grid;
+      grid-template-areas: "header"
+         "hero"
+         "container"
+         "footer";
+
+      grid-template-columns: 1fr;
+      grid-template-rows: 20% 2fr 1fr 15%;
+
+   }
+
+
+
+
+
+
+
+}
